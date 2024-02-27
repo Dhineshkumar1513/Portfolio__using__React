@@ -1,12 +1,13 @@
 // import Contact from "./Contact";
-import { Link } from "react-router-dom";
+  import { Link } from "react-router-dom";
 function Header() { 
     return (
       <div className="m-1 p-0">
         <div className="bg-black p-4">
           <h1 className="text-white text-4xl font-bold ">Dhineshkumar</h1>
           <p className="text-white font-bold text-2xl mt-3 mb-3">Web Developer</p>
-          <Link to={'/contact'} className="border-1 border-black px-2 py-1  text-blue-800 font-bold bg-orange-500" href="./Contact">Contact</Link>
+          <Link to={'/contact'} className="border-1 border-black px-2 py-1  text-blue-800 font-bold bg-orange-500" 
+          href="./Contact">Contact</Link>
         </div>
         <div className="mt-2">
           <h2 className="text-2xl font-bold">About Me</h2>
@@ -51,9 +52,9 @@ function Header() {
           <div className="bg-black mt-2 text-white p-2">
             <div className="flex gap-1"> 
             <p>Social Media :</p>
-              <a href="https://www.instagram.com/errormakesclever/" 
+              <a href="https://www.instagram.com/dhinesh.dk.15/"
               className="text-[#FF5619] hover:text-[#6D6DEE]">Instagram</a> ,
-              <a href="https://www.linkedin.com/in/theagneljohn/" 
+              <a href="https://www.linkedin.com/in/kannan-dhinesh-ba7b972b3/"
               className="text-[#FF5619] hover:text-[#6D6DEE]">Linkedin</a>
             </div>
            

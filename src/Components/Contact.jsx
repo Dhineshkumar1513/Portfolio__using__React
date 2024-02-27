@@ -36,7 +36,7 @@ function Contact() {
           <br />
           <input
             type="submit"
-            className="ml-[78px] px-2 border-2 text-black border-black rounded-md hover:bg-gray-600 hover:text-white"
+            className="ml-[78px] px-2 border-2 cursor-pointer text-black border-black rounded-md hover:bg-gray-600 hover:text-white"
           ></input>
         </form>
       </div>
@@ -48,8 +48,8 @@ function Contact() {
             href="https://www.instagram.com/dhinesh.dk.15/"
             className="text-[#6D6DEE] hover:text-[#FF5619]"
           >
-            Instagram
-          </a>
+            Instagram 
+          </a>,
           <a
             href="https://www.linkedin.com/in/kannan-dhinesh-ba7b972b3/"
             className="text-[#6D6DEE] hover:text-[#FF5619]"
